@@ -1,0 +1,22 @@
+{
+  "name": "worchspace",
+  "version": "0.1.0",
+  "description": "Orchestration tool for local development",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "orchestration",
+    "git",
+    "repositories",
+    "workspace",
+    "local",
+    "development"
+  ],
+  "author": "Elena Torro",
+  "license": "MIT"
+}
