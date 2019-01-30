@@ -5,7 +5,7 @@ module.exports = {
     log.wrong();
     
     if (error.cmd) {
-      log.failure(error.cmd);
+      log.warning(error.cmd);
     }
 
     if (error.stderr) {

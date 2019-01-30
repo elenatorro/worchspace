@@ -43,11 +43,25 @@ general:
   config:
     COMMAND_NAME_1: '...'
     COMMAND_NAME_2: '...'
+
+templates:
+  TEMPLATE_EXAMPLE:
+    path: './components'
+    extension: 'js'
+    case: 'camelCase'
 ```
 
 ## Commands
 
 ### Initializaction
+
+Creates a `.workspace` directory.
+
+```sh
+$ worchspace init
+```
+
+### Default
 
 Initialize default configuration. It clones and executes default commands.
 
